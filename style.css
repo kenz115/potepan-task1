@@ -1,0 +1,41 @@
+header, section {
+    padding: 0 15% 0 15%;
+}
+header a, main a {
+    display: block;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#header-logo {
+    width: 20%;
+}
+#header-logo img {
+    width: 100%;
+}
+#header-menu {
+    display: flex;
+    justify-content: space-between;
+}
+#header-menu li {
+    text-align: center;
+    margin-left: 20px;
+}
+.en-menu {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.ja-menu {
+    font-weight: 550;
+}
+#counseling {
+    color: #fff;
+    background-color: #f79314;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 30px;
+    line-height: 40px;
+    width: 150px;
+}
